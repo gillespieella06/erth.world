@@ -1,0 +1,45 @@
+@import url("assets/OCR-B/font/OCR-B.ttf");
+
+body {
+    background: #2e2e2e;
+    font-family: 'OCR-B', monospace;
+    color: greenyellow;
+}
+
+#home-page {
+    display: grid;
+    grid-template-columns: repeat(10, 24vh);
+    gap: 4px;
+}
+
+#title-card {
+    grid-column: span 2;
+    height: 20vh;
+}
+
+a:link {
+    color:aqua;
+}
+a:visited {
+ color: lightpink;
+}
+
+#thumbnail {
+    width: 24vh;
+    height: 20vh;
+}
+
+.info-dump {
+    width: 80vh;
+    margin: 0 auto;
+    text-align: justify;
+}
+
+.project {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 400px;
+    width: 70vh;
+    transform: translateX(20vw);
+}
